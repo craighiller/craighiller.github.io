@@ -1,1 +1,106 @@
-Hello World
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+   <title>Craig Hiller | CS194-26</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+   <link rel="stylesheet" type="text/css" href="style.css" />
+   <script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+   });
+   </script>
+   <script type="text/javascript"
+     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   </script>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<br />
+   <h1><a title="Course Homepage" href="http://www-inst.eecs.berkeley.edu/~cs194-26/fa14/">CS194-26: Computational Photography</a></h1>
+   <h2>Collection of All Projects</h2>
+   <h2><a title="Craig Hiller" href="http://www.craighiller.com">Craig Hiller</a></h2>
+<p>
+</p>
+</div>
+
+<div class="footer">
+</div>
+
+
+<div class="block2">
+<table>
+    <tr><th>Project Picture and Link</th>
+        <th>Project Description</th>
+        </tr>
+    <tr>
+        <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj1/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj1/cs194-fk/good-emir-crop.jpg", width=400px></a></td>
+        <td><p> The goal of this project was to take pre-scanned plates from the <a title="photoCollection" href="http://www.loc.gov/exhibits/empire/gorskii.html"><i>Prokudin-Gorskii</i></a> photo collection and colorize them. The images were captured in black and white, but for each plate there were three images. The top image of each plate was taken with a blue filter covering the lens, so it represents the "blue" channel of the image. Likewise, the middle image is the green channel and the bottom image is the red channel. This assignment uses image processing techniques to align and combine these three channels to form a color image. </p></td>
+        
+        </tr>
+        
+        <tr>
+            <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj2/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj2/cs194-fk/pics/east_asian_1mm.jpg" width=400px></a></td>
+            <td><p>The goal of this project was to design and build a camera obscura, or pinhole camera. This is a dark box with a hole in one side. On the other side of the box, we have a viewing screen. Since we were not using film for this project, we needed a digital camera to take a picture of this screen and show us the captured image.</p></td>
+
+            </tr>
+            
+            <tr>
+                <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj3/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj3/cs194-fk/pics/part0/IMG_9061_alpha3.jpg" width=400px></a></td>
+                <td><p>This project experimented with many different aspects of the frequency domain.</p></td>
+
+                </tr>    
+                
+                <tr>
+                    <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj4/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj4/cs194-fk/pics/overview/w80_lighthouse.jpg_lines/horiz_lines_71.jpg" width=400px></a></td>
+                    <td><p>The goal of this project was to implement horizontal and vertical seam carving as a technique to resize images in a "content-aware" fashion.</p></td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj5/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj5/cs194-fk/pics/mid/midway.jpg" width=400px></a></td>
+                        <td><p>The goal of this project was to create an animated morph between two faces. This is accomplished by first defining corresponding points between the two face images. Then, the average of these points are taken, this is the average face shape, and triangulated. This triangulation is then used to create affine transform matrices between each face and the average face. To generate a frame in a morphing sequence, the points in each triangle are transformed to corresponding locations in an output image. The color at each point is determined from a weighted average (based on frame number) of the colors in the input faces. The shape at each step in the morph is determined by the same weighted average of the input faces. To define the corresponding points, Matlab's cpselect tool was used.
+
+                        </p></td>
+
+                        </tr>
+                        
+                        <tr>
+                            <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj6/cs194-fk/"><img src="http://i.imgur.com/dx8XSuJ.gif" title="source: imgur.com" width=400px></a></td>
+                            <td><p>The goal of this project was to use light field data from the <a title="Stanford Light Field Archive" href="http://lightfield.stanford.edu/lfs.html"><b>Stanford Light Field Archive</b></a> to create images focused at different depths and images that appear like they were taken with different aperture lenses. The light field data is created by taking images in a 17x17 grid, to produce 289 images, all shifted from the center position (8,8). </p></td>
+
+                            </tr>
+                            
+                            <tr>
+                                <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj7A/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj7A/cs194-fk/pics/Campus/linear.jpg" width=400px></a></td>
+                                <td><p>The goal of this project was to learn how to create mosaics of images. This required defining corresponding points between images, recovering the homographies between them, projective warping, and compositing. The images used in this project will be introduced when they are used.
+
+                                </p></td>
+
+                                </tr>
+                                
+                                <tr>
+                                    <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj7B/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj7B/cs194-fk/pics/harris/harris_1.jpg" width=400px></a></td>
+                                    <td><p>This project is the second part (of two) in a larger project. My writeup for the first part can be found <a title="7a writeup" href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/proj7A/cs194-fk/"><b>here</b></a>. This part of the project focused on finding the corresponding points automatically using Harris corners, adaptive non-maximal suppression, MOPS features, and RANSAC. Most of the steps follow from  <a title="MOPS paper" href="http://www-inst.eecs.berkeley.edu/~cs194-26/fa14/Papers/MOPS.pdf"><b>"Multi-Image Matching using Multi-Scale Oriented Patches" by Brown et al.</b></a></p></td>
+
+                                    </tr>
+                                    <tr>
+                                         <td><a href="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/projFinalUndergrad/cs194-fk/"><img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/upload/files/projFinalUndergrad/cs194-fk/pics/mini/bears/bears_mini.jpg" width=400px></a></td>
+                                         <td><p>In the vertigo shot project, the goal was to duplicate the dolly zoom in-camera effect. It is called a "Vertigo shot" since it was popularized in Hitchcock's movie Vertigo. To create the effect, I took multiple pictures of a subject while changing the camera's location and focal length. I used a Canon EF-S 17-85mm lens on a Canon Digital Rebel XT to capture the images. In the fake miniatures project, the goal is to take images of real scenes and make them look as if they are miniature toy versions. This is done by defining a focus line and then creating the depth of field to be a few pixels around that. Outside of that area, the image gets progressively more blurry through Gaussian filters. To improve the effect, the in focus part of the image becomes more saturated.
+
+                                         
+
+                                         </p></td>
+
+                                         </tr>
+        </table>
+
+
+
+
+
+</div>
+<div class="footer">
+<h2>Craig Hiller, Fall 2014</h2>
+</div>
+</body></html>
